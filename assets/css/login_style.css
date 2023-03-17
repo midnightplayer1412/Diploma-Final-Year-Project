@@ -1,0 +1,270 @@
+*
+#main i{
+	color: grey;
+}
+
+.full-page
+{
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../img/about-bg.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	/* this block of code is for the setting the background image and position of the image etc */
+}
+
+/*.navbar 
+{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	padding-left: 50px;
+	padding-right: 30px;
+	padding-top: 50px;
+	/* this is for setting the dimensions of the navigation bar 
+	/* this have problem
+}*/
+
+/*nav
+{
+	flex: 1;
+	text-align: right;
+}*/
+
+nav ul
+{
+	display: inline-block;
+	list-style: none;
+}
+
+nav ul li
+{
+	display: inline-block;
+	/*margin-right: 20px;*/
+	/*margin: 0;
+	padding: 0;*/
+	/*display: inline-block;*/
+	/*align-items: center;*/
+	/* this blocks are for styling the list elements */
+}
+
+nav ul li a
+{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	/*font-family: sans-serif;*/
+}
+
+nav ul li button
+{
+	font-size: 20px;
+	color: white;
+	outline: none;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	font-family: sans-serif;
+}
+
+nav ul li button:hover
+{
+	color: aqua;
+}
+
+nav ul li a:hover
+{
+	color: aqua;
+}
+
+/*a
+{
+	text-decoration: none;
+	color: palevioletred;
+	font-size: 28px;
+}*/
+
+#login-form
+{
+    display: block;
+	/*this block is for hiding the form*/
+}
+
+.form-box
+{
+    width:380px;
+	height:900px;
+	position:relative;
+	margin:2% auto;
+	background:rgba(0,0,0,0.3);
+	padding:10px;
+    overflow: hidden;
+	/* creating the form with width height */
+}
+
+.button-box
+{
+	width:230px;
+	margin:35px auto;
+	position:relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+
+.toggle-btn
+{
+	padding:10px 30px;
+	cursor:pointer;
+	background:transparent;
+	border:0;
+	outline: none;
+	position: relative;
+}
+
+#btn
+{
+	top: 0;
+	left:0;
+	position: absolute;
+	width: 120px;
+	height: 100%;
+	background: #F3C693;
+	border-radius: 30px;
+	transition: .5s;
+}
+
+.input-group-login
+{
+	top: 150px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+
+.input-group-register
+{
+    top: 120px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+
+.input-field
+{
+	width: 100%;
+	padding:10px 0;
+	margin:5px 0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid #999;
+	outline:none;
+	background: transparent;
+}
+
+.submit-btn
+{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin-top: 50px;
+	margin: auto;
+	background: #F3C693;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+
+.check-box
+{
+	margin: 30px 10px 10px 0;
+}
+
+span
+{
+	color:#fff;
+	font-size:14px;
+	/*bottom:68px;*/
+}
+
+#login
+{
+	left:50px;
+}
+
+#login input
+{
+	color:white;
+	font-size:15;
+}
+
+#register
+{
+	left:450px;
+}
+
+#register input
+{
+	color:white;
+	font-size: 15;
+}
+
+.pw-meter input {
+  padding:10px 0px;
+  width:100%;
+  font-size:16px;
+  border-left:0;
+  border-top:0;
+  border-right:0;
+  border-bottom: 1px solid #999;
+  outline:none;
+}
+.pw-meter .pw-display-toggle-btn {
+  position:absolute;
+  right:10px;
+  top:475px;
+  width:20px;
+  height:20px;
+  text-align:center;
+  line-height:20px;
+  cursor:pointer;
+}
+
+.pw-meter .pw-display-toggle-btn i.bi-eye-slash {
+  display:none;
+}
+.pw-meter .pw-display-toggle-btn.active i.bi-eye-slash {
+  display:block;
+}
+.pw-meter .pw-display-toggle-btn.active i.bi-eye {
+  display:none;
+}
+.pw-meter .pw-strength {
+  position:relative;
+  width:100%;
+  height:25px;
+  margin-top:10px;
+  text-align:center;
+  background:#f2f2f2;
+  border-radius: 5px;
+  display:none;
+}
+.pw-meter .pw-strength span:nth-child(1) {
+  position:relative;
+  font-size:13px;
+  color:#111;
+  z-index:2;
+  font-weight:600;
+}
+.pw-meter .pw-strength span:nth-child(2) {
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:0%;
+  height:100%;
+  border-radius:5px;
+  z-index:1;
+  transition:all 300ms ease-in-out;
+}

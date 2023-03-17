@@ -1,0 +1,124 @@
+.payment-page {
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+select {
+	width: 100%;
+	padding: 14px;
+	margin-bottom: 20px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  text-align: center;
+}
+
+input[type=text], input[type=month] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  float: left;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.payment .btn {
+  background-color: brown;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 200px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn{
+	width: 200px;
+	padding: 12px;
+	margin: 10px 0;
+}
+
+.btn:hover {
+  background-color: #d5b276;
+  color: white;
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+
+.navBar {
+    display: flex
+}
+
+.navBar ul {
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 6vh
+}
+
+.navBar li {
+    padding: 1rem
+}
+
+.navBar li a {
+    color: white;
+    text-decoration: none
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.online-section{
+	display: block;
+}
+
+.online-section img{
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.debit-section{
+	display: block;
+}
